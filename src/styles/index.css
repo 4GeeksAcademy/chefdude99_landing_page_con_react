@@ -1,11 +1,46 @@
-/* 
+.principal {
+    display: flex;
+    margin: 70px 20px 20px 20px;
+    padding: 40px 0 30px 30px;
+    background-color: rgb(180, 176, 176);
+    border-radius: 5px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.titulo {
+    font-size: 60px;
+}
 
-*/
+.NavbarPrincipal{
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.nav-link,.navbar-brand{
+    color: white;
+}
+
+#navbarNav{
+    padding-right: 20px;
+    flex-grow: 0;
+}
+
+.AllCards{
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 25px;
+    color: white;
+    height: 70px;
+}
+
+

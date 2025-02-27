@@ -2,11 +2,12 @@ import React from "react";
 
 export const Jumbotron = () => {
    return (
-        <div className="card w-75 mb-3">
-            <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" className="btn btn-primary">Button</a>
+        <div className="principal">
+            <div>
+            <p className="titulo">Una calida Bienvenida</p>   
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur 
+            autem nesciunt dolorem perspiciatis aut, quam rem laborum itaque ea</p> 
+            <button class="btn btn-primary" type="submit">Call to Action!</button>
             </div>
         </div>
 
